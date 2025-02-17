@@ -1,0 +1,47 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #111;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#berita-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#berita-list .berita-item {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#berita-list .berita-item:hover {
+  background-color: #333;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
